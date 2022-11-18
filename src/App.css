@@ -47,14 +47,14 @@ input {
   font-size: 20px;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #6D9886;
+  background-color: #6d9886;
   color: #f7f7f7;
 }
 input:focus {
   outline: none;
 }
 
-i{
+i {
   text-transform: capitalize;
   color: #393e46;
 }
@@ -64,24 +64,30 @@ button {
   padding: 5px 10px;
   border-radius: 10px;
   border: none;
-  background-color: #6D9886;
-  color: #F7F7F7;
+  background-color: #6d9886;
+  color: #f7f7f7;
   cursor: pointer;
 }
-button:hover{
+button:hover {
   animation: bounce 0.5s ease-in-out;
 }
 
+@media (max-width: 700px) {
+  .card {
+    width: 80vw;
+  }
+}
+
 @keyframes bounce {
-  100%{
+  100% {
     margin-left: 20px;
     background-color: #212121;
   }
 }
 
-.back--btn{
+.back--btn {
   margin-top: 30px;
 }
-::placeholder{
+::placeholder {
   color: #fff;
 }
