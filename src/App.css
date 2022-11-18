@@ -76,9 +76,6 @@ button:hover {
   .card {
     width: 80vw;
   }
-  h1 {
-    font-size: 30px;
-  }
 }
 
 @keyframes bounce {
